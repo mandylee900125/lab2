@@ -1,19 +1,38 @@
-/* applies to anything of class "example-class-selector" */
+
+.home_intro{
+     color: #A1B5D8;
+     text-align: center;
+     font-size: 45px;
+}
+.home_description{
+     color: #929292;
+     width: px;
+     text-align: center;
+}
+
 .example-class-selector {
 	margin-top: 2em;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
 	color: #CC00AA;
 }
+
+/*.project{
+     margin-left: 20px;
+     background-color: #deebf7;
+     padding: 20px;
+     width: 525px;
+}*/
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
      border: 1px dotted gray;
      padding: 20px;
+
 }
 
 .jumbotron {
@@ -30,5 +49,12 @@ body {
      bottom: 0;
      right: 0;
      position: absolute;
-     z-index: -1;	
+     z-index: -1;
 }
+
+.project_title {
+     font-size: 30px;
+     color: #A1B5D8;
+
+}
+
